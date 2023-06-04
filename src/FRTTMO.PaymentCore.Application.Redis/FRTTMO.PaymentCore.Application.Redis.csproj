@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.0.593" />
+    <PackageReference Include="Volo.Abp" Version="5.0.0-beta.3" />
+    <PackageReference Include="Volo.Abp.ApiVersioning.Abstractions" Version="5.0.0-beta.3" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="5.0.0-beta.3" />
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="5.0.0-beta.3" />
+    <PackageReference Include="Volo.Abp.EventBus.RabbitMQ" Version="5.0.0-beta.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <ProjectReference Include="..\FRTTMO.PaymentCore.Application.Contracts\FRTTMO.PaymentCore.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

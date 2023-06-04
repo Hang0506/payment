@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "FRTTMO.PaymentGateway": {
+      "path": "FRTTMO.PaymentGateway.abpmdl.json"
+    }
+  }
+}

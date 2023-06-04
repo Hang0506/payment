@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "FRTTMO.PaymentGateway.Domain.Shared": {
+      "path": "src/FRTTMO.PaymentGateway.Domain.Shared/FRTTMO.PaymentGateway.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "FRTTMO.PaymentGateway.Domain": {
+      "path": "src/FRTTMO.PaymentGateway.Domain/FRTTMO.PaymentGateway.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "FRTTMO.PaymentGateway.Application.Contracts": {
+      "path": "src/FRTTMO.PaymentGateway.Application.Contracts/FRTTMO.PaymentGateway.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "FRTTMO.PaymentGateway.Application": {
+      "path": "src/FRTTMO.PaymentGateway.Application/FRTTMO.PaymentGateway.Application.abppkg.json",
+      "folder": "src"
+    },
+    "FRTTMO.PaymentGateway.EntityFrameworkCore": {
+      "path": "src/FRTTMO.PaymentGateway.EntityFrameworkCore/FRTTMO.PaymentGateway.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "FRTTMO.PaymentGateway.MongoDB": {
+      "path": "src/FRTTMO.PaymentGateway.MongoDB/FRTTMO.PaymentGateway.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "FRTTMO.PaymentGateway.HttpApi": {
+      "path": "src/FRTTMO.PaymentGateway.HttpApi/FRTTMO.PaymentGateway.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "FRTTMO.PaymentGateway.HttpApi.Client": {
+      "path": "src/FRTTMO.PaymentGateway.HttpApi.Client/FRTTMO.PaymentGateway.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "FRTTMO.PaymentGateway.TestBase": {
+      "path": "test/FRTTMO.PaymentGateway.TestBase/FRTTMO.PaymentGateway.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "FRTTMO.PaymentGateway.EntityFrameworkCore.Tests": {
+      "path": "test/FRTTMO.PaymentGateway.EntityFrameworkCore.Tests/FRTTMO.PaymentGateway.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "FRTTMO.PaymentGateway.MongoDB.Tests": {
+      "path": "test/FRTTMO.PaymentGateway.MongoDB.Tests/FRTTMO.PaymentGateway.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "FRTTMO.PaymentGateway.Domain.Tests": {
+      "path": "test/FRTTMO.PaymentGateway.Domain.Tests/FRTTMO.PaymentGateway.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "FRTTMO.PaymentGateway.Application.Tests": {
+      "path": "test/FRTTMO.PaymentGateway.Application.Tests/FRTTMO.PaymentGateway.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "FRTTMO.PaymentGateway.HttpApi.Host": {
+      "path": "host/FRTTMO.PaymentGateway.HttpApi.Host/FRTTMO.PaymentGateway.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "FRTTMO.PaymentGateway.Web": {
+      "path": "src/FRTTMO.PaymentGateway.Web/FRTTMO.PaymentGateway.Web.abppkg.json",
+      "folder": "src"
+    },
+    "FRTTMO.PaymentGateway.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/FRTTMO.PaymentGateway.HttpApi.Client.ConsoleTestApp/FRTTMO.PaymentGateway.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "FRTTMO.PaymentGateway.Web.Host": {
+      "path": "host/FRTTMO.PaymentGateway.Web.Host/FRTTMO.PaymentGateway.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "FRTTMO.PaymentGateway.IdentityServer": {
+      "path": "host/FRTTMO.PaymentGateway.IdentityServer/FRTTMO.PaymentGateway.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "FRTTMO.PaymentGateway.Host.Shared": {
+      "path": "host/FRTTMO.PaymentGateway.Host.Shared/FRTTMO.PaymentGateway.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "FRTTMO.PaymentGateway.Web.Unified": {
+      "path": "host/FRTTMO.PaymentGateway.Web.Unified/FRTTMO.PaymentGateway.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "FRTTMO.PaymentGateway.Blazor": {
+      "path": "src/FRTTMO.PaymentGateway.Blazor/FRTTMO.PaymentGateway.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "FRTTMO.PaymentGateway.Blazor.Host": {
+      "path": "host/FRTTMO.PaymentGateway.Blazor.Host/FRTTMO.PaymentGateway.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "FRTTMO.PaymentGateway.Blazor.Server": {
+      "path": "src/FRTTMO.PaymentGateway.Blazor.Server/FRTTMO.PaymentGateway.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "FRTTMO.PaymentGateway.Blazor.WebAssembly": {
+      "path": "src/FRTTMO.PaymentGateway.Blazor.WebAssembly/FRTTMO.PaymentGateway.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "FRTTMO.PaymentGateway.Blazor.Server.Host": {
+      "path": "host/FRTTMO.PaymentGateway.Blazor.Server.Host/FRTTMO.PaymentGateway.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

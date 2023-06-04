@@ -1,0 +1,79 @@
+﻿{
+  "culture": "en",
+  "texts": {
+    "Pay_Core:00100": "Dữ liệu input không hợp lệ.",
+    "Pay_Core:99902": "{Message}.",
+    "Pay_Core:99903": "{Data} is null or not found",
+    "Pay_Core:99904": "{Message}",
+    "Pay_Core:99905": "{Data} is existed",
+    "Pay_Core:00905": "Dữ liệu bị trùng lặp",
+
+    // Customer
+    "Pay_Core:00702": "Thông tin khách hàng đã hết hiệu lực",
+    "Pay_Core:00701": "Khách hàng không tồn tại trên hệ thống",
+    "Pay_Core:01701": "Dữ liệu khách hàng đã tồn tại!",
+    "Pay_Core:01702": "FullName is required!",
+    "Pay_Core:01703": "TaxNumber is required!",
+    "Pay_Core:01704": "Address is required!",
+    "Pay_Core:01705": "Mobile is required!",
+    "Pay_Core:01706": "Email is not valid!",
+    // Payment Info
+    "Pay_Core:00708": "Payment with OrderCode {OrderCode} not found",
+    "Pay_Core:00709": "Response from VNPay is changed",
+    "Pay_Core:00511": "Order code can not be empty",
+    //"Pay_Core:00504": "Order return {OrderReturnId} not found",
+    "Pay_Core:00512": "Payment request {PaymentRequestId} not found",
+    "Pay_Core:00513": "Transaction type invalid, requied is {TransactionTypeName}",
+    "Pay_Core:00514": "Payment request with Order {OrderCode} existed",
+    "Pay_Core:00515": "Type Payment request invalid , requied is {TypePayment}",
+
+    "Pay_Core:00602": "OrderCode {OrderCode} not found",
+    //
+    "Pay_Core:00703": "Order {OrderCode} is cancel",
+    "Pay_Core:00704": "Account {AccountId} not found",
+    "Pay_Core:00705": "Monney payment not equal",
+    "Pay_Core:00706": "Monney payment not match order {OrderCode}",
+    "Pay_Core:00707": "Monney payment not enough",
+
+    "Pay_Core:00801": "OrderReturnId {OrderReturnId} not found",
+    "Pay_Core:00802": "OrderReturnId {OrderReturnId} not member on current order",
+    "Pay_Core:00804": "Payment-method không hợp lệ",
+    "Pay_Core:00805": "PaymentRequest {PaymentRequestCode} has ProviderQrCode is required",
+    "Pay_Core:00806": "PaymentRequest {PaymentRequestCode} invalid",
+    "Pay_Core:00807": "PaymentRequest {PaymentRequestCode} not found",
+    "Pay_Core:00808": "Chưa có giao dịch nào {Data}",
+    "Pay_Core:00809": "Không tìm thấy giao dịch chuyển khoản này {Data}",
+
+    "Pay_Core:00815": "Tổng tiền thanh toán và số tiền cần thanh toán không khớp nhau",
+    "Pay_Core:00816": "Hủy payment request không thành công/Payment request không phải trạng thái confirm (1)",
+    "Pay_Core:00817": "Trạng thái thanh toán {Status} chưa đúng",
+    "Pay_Core:00819": "Payment này chưa thanh toán",
+    "Pay_Core:00820": "File length greater than Max length ({MaxLength}MB)",
+    "Pay_Core:00821": "File type invalid",
+    "Pay_Core:00822": "Payment method just collect money or payment",
+    "Pay_Core:00823": "Payment request is completed",
+    "Pay_Core:00824": "Payment request is canceled",
+    "Pay_Core:00825": "Số chuyển khoản {transfernum} đã tồn tại",
+    "Pay_Core:00826": "Số tiền còn lại cần nạp không hợp lệ",
+    "Pay_Core:00827": "Tiền nạp không được lớn hơn tiền còn lại",
+    "Pay_Core:00840": "{Entity} không hợp lệ",
+    "Pay_Core:00842": "Total Payment Max Deviant More than {TotalPaymentMaxDeviant}",
+    "Pay_Core:00845": "Số tiền nạp bằng voucher không khớp với giá trị voucher",
+    "Pay_Core:00847": "Payment request không hợp lệ",
+    "Pay_Core:00846": "Dữ liệu type không hợp lệ",
+    "Pay_Core:00848": "Đơn Hàng Đã Được Hủy Cọc {orderCode}",
+    "Pay_Inte:00814": "Không sử dụng được voucher {voucherCode}",
+
+    "Pay_Core:00901": "PaymentCode đã tồn tại !!",
+    "Pay_Core:00902": "Số tiền không hợp lệ !!",
+    "Pay_Core:00903": "PaymentTransaction không hợp lệ !!",
+    "Pay_Core:00904": "PaymentCode không hợp lệ !!",
+    "Pay_Core:00906": "PaymentCode {PaymentCode} đã được hoàn tất !!",
+    "Pay_Core:00907": "Số tiền còn lại cần là {Monney}!!",
+    "Pay_Core:00908": "PaymentRequest {PaymentRequestCode} vẫn chưa hoàn tất ,không thể tiếp tục deposit !!",
+    "Pay_Core:00909": "Đã tồn tại QR History !!",
+    "Pay_Core:00900": "Không tìm thấy giao dịch thanh toán thành công"
+
+  }
+}
+ 

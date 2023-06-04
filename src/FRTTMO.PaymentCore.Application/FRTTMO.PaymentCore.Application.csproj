@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>FRTTMO.PaymentCore</RootNamespace>
+    <Version>6.11.9</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Options\GotITConnect.cs" />
+    <Compile Remove="Options\SmartpayConnect.cs" />
+    <Compile Remove="Options\TapTapConnect.cs" />
+    <Compile Remove="Options\VNPayConnect.cs" />
+    <Compile Remove="Services\CoreCustomerService.cs" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AWSSDK.S3" Version="3.7.8.11" />
+		<PackageReference Include="FRTTMO.CoreCustomerAPI.Application.Contracts" Version="6.0.9" />
+		<PackageReference Include="FRTTMO.DebitService.Application.Contracts" Version="6.1.6" />
+		<PackageReference Include="FRTTMO.PaymentIntegration.Application.Contracts" Version="6.11.20" />
+		<PackageReference Include="RestSharp" Version="106.15.0" />
+		<PackageReference Include="Volo.Abp.AutoMapper" Version="5.0.1" />
+		<PackageReference Include="Volo.Abp.Ddd.Application" Version="5.0.1" />
+		<PackageReference Include="Volo.Abp.FluentValidation" Version="5.1.1" />
+	</ItemGroup>
+	
+	<ItemGroup>
+    <ProjectReference Include="..\FRTTMO.PaymentCore.Application.Contracts\FRTTMO.PaymentCore.Application.Contracts.csproj" />
+    <ProjectReference Include="..\FRTTMO.PaymentCore.Domain\FRTTMO.PaymentCore.Domain.csproj" />
+    <ProjectReference Include="..\FRTTMO.PaymentCore.Integrate\FRTTMO.PaymentCore.Integrate.csproj" />
+    <ProjectReference Include="..\FRTTMO.PaymentCore.Application.Redis\FRTTMO.PaymentCore.Application.Redis.csproj" />
+    <ProjectReference Include="..\FRTTMO.PaymentCore.Application.Redis\FRTTMO.PaymentCore.Application.Redis.csproj" />
+    <ProjectReference Include="..\FRTTMO.PaymentCore.Application.Redis\FRTTMO.PaymentCore.Application.Redis.csproj" />
+    <ProjectReference Include="..\FRTTMO.PaymentCore.Application.Redis\FRTTMO.PaymentCore.Application.Redis.csproj" />
+  </ItemGroup>
+	
+	<ItemGroup>
+	  <PackageReference Update="Fody" Version="6.6.0">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+	  </PackageReference>
+	</ItemGroup>
+
+</Project>
